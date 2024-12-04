@@ -1,0 +1,5 @@
+.about-bg { background: url("{% static 'photo/about.jpeg' %}") no-repeat center center; background-size: cover; padding: 100px 0; color: #fff; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); }
+.about-bg h1 { font-weight: bold; }
+.icon-feature { font-size: 3rem; color: #17a2b8; }
+.contact-section { background-color: #f8f9fa; padding: 40px; border-radius: 8px; }
+.contact-icon { font-size: 1.5rem; color: #17a2b8; }

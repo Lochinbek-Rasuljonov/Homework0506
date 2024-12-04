@@ -1,0 +1,58 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+*.env
+
+# PyCharm specific
+.idea/
+*.iml
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints (if using)
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Test-related
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Cache files
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# Build artifacts
+build/
+dist/
+*.bak
+*.swp
+*.tmp
+*.old
+
+# Docker
+*.pid

@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="/static/js/scripts.js"></script>
+    <style>
+    body {
+        background-image: url("{% static 'photo/home.jpg' %}");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Avtosalonga Hush kelibsiz!</h1>
+        <p>Sizning ishonchli avtosaloningiz</p>
+        <a href="{% url 'brand_list' %}" class="btn btn-primary">Brendlar</a>
+        <a href="{% url 'car_list' %}" class="btn btn-success">Avtomobillarni ko'rish</a>
+        <a href="{% url 'filiallar' %}" class="btn btn-success">Filiallar</a>
+        <a href="{% url 'about' %}" class="btn btn-success">Biz haqimizda</a>
+    </div>
+</body>
+</html>
